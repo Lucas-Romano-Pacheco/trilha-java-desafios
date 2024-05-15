@@ -5,7 +5,6 @@ public class ContaTerminal {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-        //
 
         System.out.println("Digite o numero de sua conta bancaria: ");
         int numeroConta = scanner.nextInt();
