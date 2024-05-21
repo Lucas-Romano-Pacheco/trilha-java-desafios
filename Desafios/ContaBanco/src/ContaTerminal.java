@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class ContaTerminal {
 
     public static void main(String[] args) {
+       
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite o numero de sua conta bancaria: ");
@@ -21,6 +22,7 @@ public class ContaTerminal {
 
         exibeMenu(nomeCliente, numeroAgencia, numeroConta, saldoConta);
         scanner.close();
+
     }
 
     public static void exibeMenu(String nomeCliente, String numeroAgencia, int numeroConta, double saldoConta) {
@@ -30,4 +32,5 @@ public class ContaTerminal {
                         + ",conta " + numeroConta + "e seu saldo " + saldoConta + " ja está disponivel para saque.");
 
     }
+
 }
